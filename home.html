@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday ❤️</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <!-- Navigation -->
+
+    <nav>
+        <div class="logo">
+            🎂 Birthday
+        </div>
+
+        
+            <a href="home.html">Home</a>
+            <a href="Wishes.html">Wishes</a>
+            <a href="surprise.html">Surprise</a>
+            <a href="gift.html">Gift</a>
+        
+    </nav>
+
+        <!-- Hero Section -->
+
+    <section class="hero" id="home">
+
+        <p class="small-text">
+            🎉 TODAY IS YOUR SPECIAL DAY
+        </p>
+
+        <h1>
+            Happy <br>
+            Birthday <br>
+            <span>MADHU ❤️</span>
+        </h1>
+
+        <p class="subtitle">
+            Today is all about celebrating you. <br>
+            May your smile shine brighter than ever. ✨
+        </p>
+
+        <img src="cake.png" alt="Birthday Cake" class="cake">
+
+        <br>
+
+        <a href="wishes.html" class="magic-btn">Read My Wishes ❤️</a>
+
+    </section>
+    <div class="balloon-container">
+
+    <!--Left Side-->
+    <img src="blue.png" class="balloon" onclick="popBalloon(this)">
+    <img src="purple.png" class="balloon" onclick="popBalloon(this)">
+
+    <!--Right Side-->
+    <img src="gold.png" class="balloon" onclick="popBalloon(this)">
+    <img src="pink.png" class="balloon" onclick="popBalloon(this)">
+
+</div>
+<div id="blast"></div>
+
+<audio id="bgMusic" autoplay loop>
+    <source src="birthday.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+<div class="hearts">
+
+<span>❤️</span>
+<span>💖</span>
+<span>💕</span>
+<span>💗</span>
+<span>❤️</span>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
